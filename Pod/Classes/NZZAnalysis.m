@@ -24,8 +24,10 @@
     [MobClick endLogPageView:[self key2Value:key]];
 }
 
-+ (void)initAnalysis{
-    [MobClick startWithAppkey:@"5456f211fd98c5b44e00267c" reportPolicy:BATCH channelId:nil];
++ (void)startWithAppkey:(NSString *)key{
+    [MobClick startWithAppkey:key reportPolicy:BATCH channelId:nil];
+    [MobClick setLogEnabled:NO];
     [MobClick setCrashReportEnabled:NO];
 }
+
 @end

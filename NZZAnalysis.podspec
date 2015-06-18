@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NZZAnalysis"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "公司内用"
   s.description      = "公司内用,统计app"
   s.homepage         = "https://github.com/noai966669/NZZAnalysis.git"

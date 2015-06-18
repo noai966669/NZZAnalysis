@@ -18,6 +18,9 @@
 + (void)endLogPageView:(NSString *)pageName;
 /**
  *  初始化注册统计
+ *
+ *  @param key 第三方库Key值
  */
-+ (void)initAnalysis;
++ (void)startWithAppkey:(NSString *)key;
+
 @end
